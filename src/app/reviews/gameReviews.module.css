@@ -1,0 +1,10 @@
+.imageContainer {
+  max-width: 600px;
+}
+
+.image {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,48 @@
+.text {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.homePageCard {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  display: block;
+  height: 500px;
+  transition: all 0.4s;
+}
+
+.homePageCard:hover {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+
+.homePageCard img {
+  width: 100%;
+  display: block;
+  object-position: 50% 90%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.homePageCard h3 {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.textWrapper {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 10%;
+  z-index: 3;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .textWrapper {
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+}
